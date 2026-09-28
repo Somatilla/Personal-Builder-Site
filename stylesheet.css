@@ -4,3 +4,43 @@ body {
     color: white;
     font-family: "Press Start 2P", system-ui;
 }
+.top {
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 0px;
+    display: flex;
+    gap: 20px;
+    overflow: inherit;
+}
+h1 {
+    text-align: center;
+}
+.aboutMeP {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: 3vh;
+
+}
+.character {
+    padding: 1vh;
+    width: 15vh;
+    height: 15vh;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+.langScrollContainer {
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 0px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.jsImg {
+
+}
