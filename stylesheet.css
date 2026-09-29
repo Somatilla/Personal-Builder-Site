@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+::-webkit-scrollbar {
+    background: #313338;
+}
+::-webkit-scrollbar-thumb {
+    background: chartreuse;
+}
+
 body {
     background-color: #313338;
     color: white;
     font-family: "Press Start 2P", system-ui;
 }
-.top {
+.topCard {
     border-width: 5px;
     border-color: chartreuse;
     border-style: solid;
@@ -40,6 +49,7 @@ h1 {
     gap: 20px;
     overflow-x: scroll;
     overflow-y: hidden;
+    scrollbar-color: chartreuse, #313338;
 }
 
 .img {
