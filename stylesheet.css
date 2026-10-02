@@ -12,6 +12,7 @@ body {
     background-color: #313338;
     color: white;
     font-family: "Press Start 2P", system-ui;
+    line-height: 2rem;
 }
 .topCard {
     border-width: 5px;
@@ -87,6 +88,7 @@ h1 {
   border-color: chartreuse;
   border-width: 0.5vh;
   border-style: solid;
+  margin-bottom: 1vh;
 }
 
 .contact {
@@ -98,12 +100,12 @@ h1 {
     margin-bottom: 2vh;
 }
 
-.music {
+.freeTime {
     gap: 1vw;
     border-width: 5px;
     border-color: chartreuse;
     border-style: solid;
     border-radius: 0px;
     margin-bottom: 2vh;
-    margin-right: 10vw;
+    margin-right: 5vw;
 }
