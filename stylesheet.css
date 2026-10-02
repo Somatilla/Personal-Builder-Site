@@ -88,3 +88,22 @@ h1 {
   border-width: 0.5vh;
   border-style: solid;
 }
+
+.contact {
+    gap: 1vw;
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 0px;
+    margin-bottom: 2vh;
+}
+
+.music {
+    gap: 1vw;
+    border-width: 5px;
+    border-color: chartreuse;
+    border-style: solid;
+    border-radius: 0px;
+    margin-bottom: 2vh;
+    margin-right: 10vw;
+}
